@@ -1,19 +1,6 @@
 ![status](https://secure.travis-ci.org/rpl/gulp-static-react-pages.svg?branch=master)
 
 # gulp-static-react-pages
-## Static Websites like in 2015 :-)
-
-This simple gulp plugin helps to build a static website generator using modern
-web technologies:
-
-- **gulp** as build process orchestrator
-- **browser-sync** as development/preview webserver with auto-reload capabilities
-- **React** as the its template engine (which helps to refactor your page templates
-  into reusable React components)
-- **yaml/json** data files as optional data available to the React page components
-- **local node modules** in the website projects as reusable abstractions
-- **any npm package** as third part libs directory
-- **any gulp plugin** to customize your build process
 
 ## Information
 
@@ -30,6 +17,20 @@ web technologies:
 <td>>= 0.11</td>
 </tr>
 </table>
+
+### Static Websites like in 2015 :-)
+
+This simple gulp plugin helps to build your own static website generator using modern
+web technologies:
+
+- **gulp** as build process orchestrator
+- **browser-sync** as development/preview webserver with auto-reload capabilities
+- **React** as the its template engine (which helps to refactor your page templates
+  into reusable React components)
+- **yaml/json** data files as optional data available to the React page components
+- **local node modules** in the website projects as reusable abstractions
+- **any npm package** as third part libs directory
+- **any gulp plugin** to customize your build process
 
 ## Usage
 
