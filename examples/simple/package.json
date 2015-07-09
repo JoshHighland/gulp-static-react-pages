@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "simple-site",
+  "version": "0.1.0",
+  "description": "simple static site",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "author": "Luca Greco <luca.greco@alcacoop.it>",
+  "license": "AGPLv3",
+  "dependencies": {
+    "babel": "^5.1.13",
+    "react": "^0.13.2",
+    "react-html": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.20",
+    "browser-sync": "^2.7.13",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.3",
+    "gulp": "^3.9.0",
+    "gulp-prettify": "^0.3.0",
+    "gulp-watch": "^4.2.4",
+    "gulp-static-react-pages": "../../"
+  }
+}

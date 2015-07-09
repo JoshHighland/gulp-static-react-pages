@@ -1,0 +1,10 @@
+env:
+  node: true
+  es6: false
+ecmaFeatures:
+  blockBindings: false
+  forOf: false
+  jsx: false
+  modules: false
+plugins:
+  - react

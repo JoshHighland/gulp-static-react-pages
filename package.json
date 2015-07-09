@@ -1,0 +1,36 @@
+{
+  "name": "gulp-static-react-pages",
+  "version": "0.1.0",
+  "description": "experiments in static site generation using React",
+  "main": "lib/plugin.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test-unit": "jasmine-node test/",
+    "test-unit-coverage": "istanbul cover jasmine-node test/",
+    "test": "npm run lint && npm run test-unit",
+    "travis-ci": "npm run lint && npm run test-unit-coverage"
+  },
+  "author": "Luca Greco <luca.greco@alcacoop.it>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "browser-sync": "^2.7.13",
+    "gulp-util": "^3.0.6",
+    "js-yaml": "^3.3.1",
+    "lodash": "^3.10.0",
+    "react": "^0.13.2",
+    "strip-json-comments": "^1.0.2",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "esformatter": "^0.7.1",
+    "esformatter-quotes": "^1.0.2",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.3",
+    "gulp": "^3.9.0",
+    "istanbul": "^0.3.17",
+    "jasmine-core": "^2.3.3",
+    "jasmine-node": "^1.14.5",
+    "stream-assert": "^2.0.2"
+  }
+}
